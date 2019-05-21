@@ -10,7 +10,7 @@ const Display = props => {
       </div>
       <div className="strikes">
         <h3>{props.strike}</h3>
-        <button onClick={() => props.strikeHandler()}>Strikes</button>
+        <button data-testid="strikes" onClick={() => props.strikeHandler()}>Strikes</button>
       </div>
       <div className="fouls">
         <h3>{props.foul}</h3>
